@@ -17,6 +17,12 @@ body {
     width:100%;
     padding:0%;
 }
+
+.home{
+    background-image:url("../images/programp.jpg");
+     background-size:cover;
+    background-repeat:no-repeat;
+}
 main {
   width:72%;
   height:400px;
@@ -47,7 +53,7 @@ li {
 }
 
 ul {
-    background-color:DodgerBlue;
+    background-color:#7ED4F7;
 }
 
 a {
@@ -90,7 +96,7 @@ a:hover {
 
 /*BUTTON DETAILS*/
 .transbutton {
-  background-color:DodgerBlue;
+  background-color:#7ED4F7;
   border:none;
   padding: 15px 32px;
   cursor: pointer;
@@ -119,8 +125,8 @@ footer {
   padding: 1rem;
   text-align: center;
   font-size: 1.5em;
-  background-color:DodgerBlue;
-  border-color:DodgerBlue;
+  background-color:#7ED4F7;
+  border-color:#7ED4F7;
 }
 
 footer a {
@@ -138,21 +144,26 @@ footer a {
     margin-bottom: 10px;
      line-height: 20px;
      font-family:"Lucida Console", Monaco, monospace;
+     border-style:groove;
+     background-color:white;
      
 }
 
 .missionstatement2 {
      text-align:center;
     color:black;
-    font-size:26px;
+    font-size:20px;
 }
 .messagesignup {
     width:250px;
     height:100px;
 }
+.number {
+    font-size:17;
+}
     
     .program{
         text-align:center;
-        font-size:26px;
+        font-size:20px;
         font-family:"Lucida Console", Monaco, monospace;
     }
